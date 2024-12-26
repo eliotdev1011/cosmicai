@@ -15997,7 +15997,7 @@ const A8 = "/assets/logo-g6BL5wNj.png",
                     children: g.jsx(_a, {
                       className: `bg-gradient-to-r from-rose-600 to-rose-400 text-white border-none
                   hover:opacity-90 transition-opacity px-6 py-2 text-md font-medium`,
-                      onClick: () => (window.location.href = "https://app-cosmicai128.vercel.app/"),
+                      onClick: () => (window.location.href = "https://app.cosmicai.cc/"),
                       children: "Launch App",
                     }),
                   }),
