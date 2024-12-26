@@ -10498,8 +10498,8 @@ const JE = "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='utf-8'?%3e%3c
       t = [
       ],
       n = [
-        { text: "Buy COSM", icon: g.jsx(GE, {}), link: "https://app.uniswap.org/swap?outputCurrency=0x000000000000000000000000000" },
-        { text: "Chart", icon: g.jsx(XE, {}), link: "https://dexscreener.com/ethereum/0xdf9e7120589c5271f0cb4810464417985e3910a3" },
+        { text: "Buy COSM", icon: g.jsx(GE, {}), link: "https://app.uniswap.org/swap?outputCurrency=0xc672C0D40605C39F41D703d17ed18983A3AEb3dF" },
+        { text: "Chart", icon: g.jsx(XE, {}), link: "https://dexscreener.com/ethereum/" },
       ],
       [r, o] = f.useState(e),
       [i, s] = f.useState(t),
@@ -10547,9 +10547,9 @@ const JE = "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='utf-8'?%3e%3c
                       g.jsx("span", {
                         className: "cursor-pointer",
                         onClick: () => {
-                          navigator.clipboard.writeText("0x000000000000000000000000000"), alert("Copied to clipboard!");
+                          navigator.clipboard.writeText("0xc672C0D40605C39F41D703d17ed18983A3AEb3dF"), alert("Copied to clipboard!");
                         },
-                        children: "0x000000000000000000000000000",
+                        children: "0xc672C0D40605C39F41D703d17ed18983A3AEb3dF",
                       }),
                     ],
                   }),
